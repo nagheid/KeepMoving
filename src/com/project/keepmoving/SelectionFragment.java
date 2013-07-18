@@ -14,7 +14,7 @@ public class SelectionFragment extends Fragment {
 	public View onCreateView(LayoutInflater inflater, 
 	        ViewGroup container, Bundle savedInstanceState) {
 	    super.onCreateView(inflater, container, savedInstanceState);
-	    View view = inflater.inflate(R.layout.selection, 
+	    View view = inflater.inflate(R.layout.selection_fragment, 
 	            container, false);
 	    return view;
 	}

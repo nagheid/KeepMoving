@@ -16,7 +16,7 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="com.project.keepmoving.MainActivity_2"
+            android:name="com.project.keepmoving.MainActivity"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -30,20 +30,18 @@
             android:value="@string/app_id" />
 
         <activity
-            android:name="com.facebook.LoginActivity"
-            android:label="@string/app_name" >
-        </activity>
-        <activity
-            android:name="com.project.keepmoving.MainFragment"
-            android:label="@string/title_activity_main_fragment" >
-        </activity>
-        <activity
             android:name="com.project.keepmoving.SelectionFragment"
             android:label="@string/title_activity_selection_fragment" >
         </activity>
         <activity
-            android:name="com.project.keepmoving.MainActivity"
-            android:label="@string/title_activity_main" >
+            android:name="com.project.keepmoving.LoginActivity"
+            android:label="@string/title_activity_login"
+            android:windowSoftInputMode="adjustResize|stateVisible" >
+        </activity>
+        <activity
+            android:name="com.project.keepmoving.LoginFragment"
+            android:label="@string/title_activity_login_fragment"
+            android:windowSoftInputMode="adjustResize|stateVisible" >
         </activity>
     </application>
 
